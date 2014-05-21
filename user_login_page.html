@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html lang='en'>
+		<head>
+			<meta charset='utf-8'>
+			<title>Drew's Camera Site</title>
+			<link rel='stylesheet' href='css/stylesheet.css'>
+		</head>		
+	<body>
+		<div id='wrapper'>		
+			<header>
+				<div id='header_image'>			
+					<a href='index.html'><img src='images/logo.jpg' alt='Atomic Photography' title='Atomic Photgraphy'></a>
+				</div>	
+					<h1>Camera's "R" Us</h1>
+					<nav>
+						<ol>
+							<li><a href='index.html'>Home</a></li>
+							<li><a href='saved_items_page.html'>Favorites</a></li>
+							<li><a href='user_login_page.html'>Log In</a></li>
+							<li><a href='user_sign_up_page.html'>Sign Up</a></li>
+						</ol>
+					</nav>
+			</header>
+				<form method="get" action="index.html">
+					<div id='filter_search'>
+						<h2>Advance Search</h2>
+							<h3>Price</h3>		
+								<div class="container"> Less Than $150 <br />
+									<input type="checkbox" /> $150-$250 <br />
+									<input type="checkbox" /> $250-$400 <br />
+									<input type="checkbox" /> $400-$500 <br />
+									<input type="checkbox" /> $500-$750 <br />
+									<input type="checkbox" /> More Than $750 <br />
+									<input type="checkbox" />
+								</div>
+							<h3>Company</h3>
+								<div class="container"> Nikon <br />
+									<input type="checkbox" /> Canon <br />
+									<input type="checkbox" /> Olympus <br />
+									<input type="checkbox" /> Sony <br />
+									<input type="checkbox" /> Panasonic <br />
+									<input type="checkbox" /> Kodak <br />
+									<input type="checkbox" /> 
+								</div>				
+							<h3>Type</h3>
+								<div class="container"> Compact Cameras <br />
+									<input type="checkbox" /> Digital SLR <br />
+									<input type="checkbox" /> Superzoom Cameras <br />
+									<input type="checkbox" /> Compact Interchangeable Lens Cameras <br />
+									<input type="checkbox" /> Cheap Cameras <br />
+									<input type="checkbox" />
+								</div>
+								<div>
+									<button type='submit' name='search' class='button'>Search</button>
+								</div>
+							</div>	
+						</form>
+			<form class='form'>
+				<fieldset>
+					<legend>Log In Info</legend>
+						<div>
+							<label>User Name</label>
+							<input type='text' name='name_first' id='name_first'>
+						</div>	
+						<div>
+							<label>Password</label>
+							<input type='text' name='name_last' id='name_last'>
+						</div>
+						<div>			
+							<label>Remember Me</label>
+							<input type='checkbox' name='remember_me' id='remember_me'>
+						</div>
+					<div>
+						<button type='submit' name='submit' class='button'>Sign In</button>
+					</div>
+			</fieldset>
+		</form>	
+			<footer>
+				<p>Enjoy The Art Of Photography</p>
+			</footer>
+		</div>
+	</body>
+</html>

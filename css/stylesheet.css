@@ -1,0 +1,133 @@
+body {
+	font-size: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: 'life savers';
+	color: #000;
+}
+
+#wrapper {
+	max-width: 100%;    
+}
+
+header {	
+	overflow: hidden;
+	margin-bottom: 25px; 
+	
+}
+
+#header_image {
+	max-width: 100%;
+	float: left;
+	padding: 10px;
+	margin: 25px auto; 
+}
+	
+
+h1 { 
+	font: 5em griffy, cursive, serif;	
+	float: left;
+	text-align: center;
+	padding-left: 50px;    	
+}
+ 
+
+ 
+ol {
+	width: 400px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding-left: 50px;
+}
+
+ol li {
+	width: 100px;
+	height: 30px; 
+	float: left;
+	text-align: center;	
+}
+	
+ul {
+	list-style-type: none;	
+}
+	
+#filter_search {
+	Float: left;
+	padding: 10px;
+	margin: 25px 35px 0 0;
+	width: 325px;
+	
+}
+
+.container {
+	padding-left: 50px;
+}
+
+.button {
+	margin-top: 10px;
+}
+	
+#camera img {
+	margin-left: 50px;
+}
+
+#cameras img {
+	padding-top: 30px;
+	float: left;
+}
+
+#cameras p {
+	margin-left: 50px;
+	padding-top: 90px;
+}
+
+footer {
+	font: 3em arial, cursive, serif; 
+	text-align: center;
+	color: #000;
+	clear: both;
+	padding: 5px 0;
+}
+	
+
+/*Form Style
+=====================================================================*/
+
+.form {
+	text-align: right;
+	margin: 100px;
+	padding: 10px 25px;
+}
+
+.form label {
+	padding-right: 10px;
+}
+
+.form legend {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+input {
+	height: 25px;
+	width: 300px;
+	margin: 10px;
+}
+
+input:focus {
+	background: #ccf4ff;
+}
+
+#remember_me {
+	width: 30px;
+	margin-right: 285px;
+}
+
+#filter_search input {
+	height: 25px;
+	margin: -20px;
+	float: left;
+	padding-top: 5px;
+	margin-left: -175px;
+}
+
